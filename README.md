@@ -8,7 +8,7 @@
     require abstract_project'
 
 Setup the client:
-
+```ruby
     client = AbstractProject::Client.new(app_id: 'ID', app_key: 'SECRET')
     client = AbstractProject.new(app_id: 'ID', app_key: 'SECRET')
-
+```
